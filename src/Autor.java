@@ -10,6 +10,10 @@ public class Autor {
     public void mostrarDetalhes(){
         System.out.println("nome do autor: " + name);
         System.out.println("email: "+ email);
-    };
+    }
+
+    public String ToString(){
+      return "  nome: " + name + "   emails: "+ email;
+    }
 
 }

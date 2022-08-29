@@ -1,3 +1,3 @@
  interface Ipromocional {
-    public boolean aplicaDesconto(double porcentagem);
+    public double aplicaDesconto(double porcentagem);
 }
